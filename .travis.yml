@@ -1,0 +1,4 @@
+# language: python # this works for Linux but is an error on macOS or Windows
+# Windows 10.0.17134 N/A Build 17134
+language: shell # 'language: python' is an error on Travis CI Window
+  script: hash.py
